@@ -11,7 +11,7 @@ pipeline {
         stage('Install MariaDB') {
             steps {
          
-                sh 'sudo apt-get install -y mariadb'
+                sh 'sudo apt-get install -y mariadb-server'
             }
         }
         stage(' MariaDB Version') {
